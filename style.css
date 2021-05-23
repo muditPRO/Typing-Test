@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+body {
+  background: linear-gradient(to right, #e0fbfc, #98c1d9);
+  color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #10002b;
+  font-family: "Carter One", cursive;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer,
+.errors,
+.accuracy,
+.cpm,
+.wpm {
+  background-color: #ee6c4d;
+  color: #e0fbfc;
+  height: 60px;
+  width: 70px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+  box-shadow: 0 10px 20px rgba(224, 251, 252, 0.7);
+}
+
+.accuracy {
+  display: none;
+}
+
+.cpm,
+.wpm {
+  display: none;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.curr_time,
+.curr_errors,
+.curr_accuracy,
+.curr_cpm,
+.curr_wpm {
+  font-size: 2.75rem;
+}
+
+.quote {
+  background-color: #3d5a80;
+  color: #e0fbfc;
+  font-size: 1.5rem;
+  margin: 15px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.input_area {
+  background-color: #f5f5c6;
+  height: 80px;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 0px;
+  box-shadow: 0 20px 50px rgba(61, 90, 128, 0.7);
+}
+
+.restart_btn {
+  display: none;
+  background-color: #ee6c4d;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+}
+
+.incorrect_char {
+  color: #ef476f;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: #06d6a0;
+}
